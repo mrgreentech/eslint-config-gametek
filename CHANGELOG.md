@@ -7,12 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.0.1] - 2020-xx-xx
+## [0.0.1] - 2020-06-03
 
 ### Added
 
--   This CHANGELOG file to hopefully serve as an evolving example of a
-    standardized open source project CHANGELOG.
+-   New folder and file structure for linting `rules / configs / plugins`.
+-   Legacy GFP linting rules moved to `/gfp`.
 
 [unreleased]: https://github.com/mrgreentech/eslint-config-gametek/compare/v1.0.0...HEAD
 [0.0.1]: https://github.com/mrgreentech/eslint-config-gametek/releases/tag/v0.0.1
