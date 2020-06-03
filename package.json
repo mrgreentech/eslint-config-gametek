@@ -1,5 +1,5 @@
 {
-	"name": "eslint-config-gfp",
+	"name": "eslint-config-gametek",
 	"version": "0.0.1",
 	"description": "Sharable linting packages for the Gametek client platform",
 	"license": "MIT",
