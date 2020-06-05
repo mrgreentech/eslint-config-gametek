@@ -7,7 +7,7 @@ module.exports = {
         mocha: true
     },
     plugins: ["protractor"],
-    extends: ["airbnb-base/legacy", "gfp/rules/base", "gfp/rules/es6"],
+    extends: ["airbnb-base/legacy", "gametek/rules/base", "gametek/rules/es6"],
     rules: {
         "protractor/bare-element-finders": 2,
         "protractor/by-css-shortcut": 2,
