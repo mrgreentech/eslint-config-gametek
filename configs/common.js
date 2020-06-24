@@ -1,10 +1,11 @@
-"use strict";
-
 module.exports = {
-    extends: ["airbnb-base/legacy", "prettier"],
+    extends: ["airbnb-base"],
     env: {
         es6: true
     },
-    globals: {},
-    rules: {}
+    rules: {
+        "no-use-before-define": ["error", { functions: false }],
+        // allow unused variables only when arguments to a function
+        "no-unused-vars": ["error", { args: "none" }]
+    }
 };

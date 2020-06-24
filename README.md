@@ -1,6 +1,10 @@
-Sharable eslint packages for the Gametek client platform. Theres is support for both legacy platform `GFP` and new linting conventions. This means that there are linting support for browser, node and test environments and also specialized packages like react, prettier etc...
+# eslint-config-gametek
 
-# How to use
+Sharable eslint packages and plugins for the Gametek client platform. This gives linting support for browser, node and test environments. Also some specialized packages like react, prettier etc...
+
+For the legacy platform please use [eslint-config-gfp](https://github.com/mrgreentech/eslint-config-gfp).
+
+## How to use
 
 1. Install package:
 
@@ -24,77 +28,61 @@ Common rules extends "airbnb-base/legacy" and sets environment `es6` to true.
 
 To use **common rules**:
 
-    ```
-    {
-        "extends": "gametek"
-    }
-    ```
+```
+{
+    "extends": "gametek"
+}
+```
 
 Or
 
-    ```
-    {
-        "extends": "gametek/configs/common"
-    }
-    ```
+```
+{
+    "extends": "gametek/configs/common"
+}
+```
 
 To use **browser rules**:
 
-    ```
-    {
-        "extends": "gametek/configs/browser"
-    }
-    ```
+```
+{
+    "extends": "gametek/configs/browser"
+}
+```
 
 To use **node JS rules**:
 
-    ```
-    {
-        "extends": "gametek/configs/node"
-    }
-    ```
+```
+{
+    "extends": "gametek/configs/node"
+}
+```
 
-## GFP rules (moved to /gametek/gfp/\*)
+## Plugins
 
-To use **browser rules** (comes with angular environment, made for ES5):
+To use **compat rules** (lint the browser compatibility of your code):
 
-    ```
-    {
-        "extends": "gametek/gfp/browser"
-    }
-    ```
+```
+{
+    "extends": "gametek/plugins/compat"
+}
+```
 
-To use **node JS rules** (made for ES6 progressively), use:
+To use **prettier rules** (disables conflicting rules):
 
-    ```
-    {
-        "extends": "gametek/gfp/node"
-    }
-    ```
+```
+{
+    "extends": "gametek/plugins/prettier"
+}
+```
 
-To use **React JS rules** (including JSX support), use:
+To use **prettier-react rules** (disables conflicting rules):
 
-    ```
-    {
-        "extends": "gametek/gfp/react"
-    }
-    ```
-
-To use **Jest JS rules**, use:
-
-    ```
-    {
-        "extends": "gametek/gfp/jest"
-    }
-    ```
-
-If you are using **Prettier** with any of our eslint configurations, add:
-
-    ```
-    {
-        "extends": "gametek/gfp/prettier"
-    }
-    ```
+```
+{
+    "extends": "gametek/plugins/prettier-react"
+}
+```
 
 # Contributing
 

@@ -1,10 +1,7 @@
-"use strict";
-
 module.exports = {
-    extends: ["gametek/configs/common", "gametek/plugins/comp"],
+    extends: ["./common.js"],
     env: {
-        browser: true,
-        es6: true
+        browser: true
     },
     globals: {},
     rules: {}
