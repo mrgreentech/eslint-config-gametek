@@ -1,5 +1,7 @@
 # eslint-config-gametek
 
+![Code scanning - action](https://github.com/mrgreentech/eslint-config-gametek/workflows/Code%20scanning%20-%20action/badge.svg)
+
 Sharable eslint packages and plugins for the Gametek client platform. This gives linting support for browser, node and test environments. Also some specialized packages like react, prettier etc...
 
 For the legacy platform please use [eslint-config-gfp](https://github.com/mrgreentech/eslint-config-gfp).
