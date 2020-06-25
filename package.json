@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-gametek",
-	"version": "0.0.2",
+	"version": "0.1.0",
 	"description": "Sharable eslint packages for the Gametek client platform",
 	"license": "MIT",
 	"keywords": [
